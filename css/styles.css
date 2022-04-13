@@ -1,0 +1,60 @@
+.bg-add{
+	background: linear-gradient(135deg, #FFFFFF 65%, #00003d 35%);
+}
+
+.container-fluid {
+	height: 600px;
+	overflow: scroll;
+}
+
+.tableDiv {
+	max-width:100%; 
+	overflow: scroll;
+	max-height: 500px;
+}
+
+.input-text, textarea {
+	background-color: white;
+	border: solid .5px gray !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+    margin: 5px 0;
+    text-align: center;
+    width:100%;
+    padding: 2px;
+    transition: ease-in-out 0.2s;
+}
+
+.input-text:focus{
+    box-shadow: gray 3px 3px 20px !important;
+}
+
+.label-for {
+	margin-left: 10px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.col-sm-12 > label {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+textarea {
+	resize: none;
+	height: 50px !important;
+}
+
+.send {
+	width: 100%;
+	height: 40px;
+	background-color: #2f2ff8;
+	color: white;
+	font-weight: bold;
+	border: transparent;
+	border-radius: .5em;
+}
+
+.send:hover {
+	background-color: #5e5ef8;
+}
